@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  height: 12vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header div ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header div ul li {
+  cursor: pointer;
+}
+
+header button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header img {
+  width: 100%;
+  max-width: 100px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 76vh;
+}
+
+main h1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+main h2 {
+  padding: 10px;
+}
+
+main ul li {
+  padding: 4px;
+}
+
+footer {
+  height: 12vh;
+  padding: 26px;
+  background-color: #f8f8f8;
+  color: #555;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para o conteúdo dentro do footer */
+footer .footer div{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+footer .footer div ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
+}
+
+footer .copyright{
+  margin-top: 40px;
+}
+
