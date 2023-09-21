@@ -13,7 +13,7 @@ function Cartao(props) {
 
             <NumeroDoCartao>
                 {props.numero}
-                
+
             </NumeroDoCartao>
 
             <Nome>
